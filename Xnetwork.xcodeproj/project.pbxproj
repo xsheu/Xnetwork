@@ -8,8 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		0A63A0EC22C0FEDE00C177AF /* Pods_LeisureMapTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C89FE970331C6294D9D0CB7 /* Pods_LeisureMapTests.framework */; };
+		0AD6D55822C10ED90084C9E2 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD693E50210858B800AC26D3 /* MasterViewController.swift */; };
+		0AD6D55922C10F010084C9E2 /* Pods-LeisureMap.debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 6752C2CB2E014EDE6A5A47FE /* Pods-LeisureMap.debug.xcconfig */; };
+		0AD6D55A22C10F050084C9E2 /* Pods-LeisureMap.release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 7BA78945785E5D637F32C685 /* Pods-LeisureMap.release.xcconfig */; };
+		0AD6D55B22C10F080084C9E2 /* Pods-LeisureMapTests.debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 17D2A3FE16605E752ABC0171 /* Pods-LeisureMapTests.debug.xcconfig */; };
+		0AD6D55C22C10F0B0084C9E2 /* Pods-LeisureMapTests.release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 54D0F2CD16C67FC7F9216CD5 /* Pods-LeisureMapTests.release.xcconfig */; };
+		0AD6D55D22C10F0E0084C9E2 /* Pods-LeisureMapUITests.debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 08298CF4FB8996EE4E1D7A43 /* Pods-LeisureMapUITests.debug.xcconfig */; };
+		0AD6D55E22C10F100084C9E2 /* Pods-LeisureMapUITests.release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = D56004F4E3CFA5B7CC1FE1F6 /* Pods-LeisureMapUITests.release.xcconfig */; };
 		1E775892B08F8E8E991731F5 /* Pods_LeisureMapTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C89FE970331C6294D9D0CB7 /* Pods_LeisureMapTests.framework */; };
 		3346C59265546026FB819604 /* Pods_LeisureMapUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF8B0245B6CC28C8CBA0F0AA /* Pods_LeisureMapUITests.framework */; };
+		4E8E901383E9E76B29921CD6 /* Pods_LeisureMap.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98BC3AC92BFF59567196CE38 /* Pods_LeisureMap.framework */; };
 		8B227ED52111B8BF001C59A9 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 8B227ED42111B8BF001C59A9 /* README.md */; };
 		8B4D66CE2112AEA900A8B911 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8B4D66D02112AEA900A8B911 /* Localizable.strings */; };
 		8B78945621119B6200AE7D6F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8B78945821119B6200AE7D6F /* InfoPlist.strings */; };
@@ -29,14 +37,13 @@
 		AD668A412105D7C90066B0EC /* LeisureMapUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD668A402105D7C90066B0EC /* LeisureMapUITests.swift */; };
 		AD668A502105DB030066B0EC /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD668A4F2105DB030066B0EC /* SplashViewController.swift */; };
 		AD668A562105DBFE0066B0EC /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD668A552105DBFE0066B0EC /* LoginViewController.swift */; };
-		AD693E51210858B800AC26D3 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD693E50210858B800AC26D3 /* MasterViewController.swift */; };
 		AD693E53210858D000AC26D3 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD693E52210858D000AC26D3 /* DetailViewController.swift */; };
 		AD693E562108590D00AC26D3 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD693E552108590D00AC26D3 /* MapViewController.swift */; };
 		AD693E592108592D00AC26D3 /* NoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD693E582108592D00AC26D3 /* NoteViewController.swift */; };
 		AD7594F6210C528500653986 /* abc.edu.gpx in Resources */ = {isa = PBXBuildFile; fileRef = AD7594F5210C528400653986 /* abc.edu.gpx */; };
 		AD7594F8210C69D400653986 /* MapFlag.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7594F7210C69D400653986 /* MapFlag.swift */; };
 		ADDE451E2109CF2300277E8E /* FileWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADDE451D2109CF2300277E8E /* FileWorker.swift */; };
-		B26206FAE9EAF09429AC73ED /* Pods_LeisureMap.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39065111F89BA4EE5E558F58 /* Pods_LeisureMap.framework */; };
+		B26206FAE9EAF09429AC73ED /* LeisureMap.app in Frameworks */ = {isa = PBXBuildFile; fileRef = 39065111F89BA4EE5E558F58 /* LeisureMap.app */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,13 +64,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00C909580575A68992C74214 /* Pods-LeisureMapUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeisureMapUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LeisureMapUITests/Pods-LeisureMapUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		08298CF4FB8996EE4E1D7A43 /* Pods-LeisureMapUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeisureMapUITests.debug.xcconfig"; path = "Target Support Files/Pods-LeisureMapUITests/Pods-LeisureMapUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		17D2A3FE16605E752ABC0171 /* Pods-LeisureMapTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeisureMapTests.debug.xcconfig"; path = "Target Support Files/Pods-LeisureMapTests/Pods-LeisureMapTests.debug.xcconfig"; sourceTree = "<group>"; };
 		1C89FE970331C6294D9D0CB7 /* Pods_LeisureMapTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LeisureMapTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		39065111F89BA4EE5E558F58 /* Pods_LeisureMap.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LeisureMap.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3D71563C49CCF19875C05214 /* Pods-LeisureMap.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeisureMap.release.xcconfig"; path = "Pods/Target Support Files/Pods-LeisureMap/Pods-LeisureMap.release.xcconfig"; sourceTree = "<group>"; };
-		743B8D7CD1499CBDF6D55F9F /* Pods-LeisureMap.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeisureMap.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LeisureMap/Pods-LeisureMap.debug.xcconfig"; sourceTree = "<group>"; };
-		8025FD01A7566C09ADA1275A /* Pods-LeisureMapUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeisureMapUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LeisureMapUITests/Pods-LeisureMapUITests.release.xcconfig"; sourceTree = "<group>"; };
-		8651CB4BA879CA2F0F1F4E73 /* Pods-LeisureMapTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeisureMapTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LeisureMapTests/Pods-LeisureMapTests.release.xcconfig"; sourceTree = "<group>"; };
+		39065111F89BA4EE5E558F58 /* LeisureMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LeisureMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		54D0F2CD16C67FC7F9216CD5 /* Pods-LeisureMapTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeisureMapTests.release.xcconfig"; path = "Target Support Files/Pods-LeisureMapTests/Pods-LeisureMapTests.release.xcconfig"; sourceTree = "<group>"; };
+		6752C2CB2E014EDE6A5A47FE /* Pods-LeisureMap.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeisureMap.debug.xcconfig"; path = "Target Support Files/Pods-LeisureMap/Pods-LeisureMap.debug.xcconfig"; sourceTree = "<group>"; };
+		7BA78945785E5D637F32C685 /* Pods-LeisureMap.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeisureMap.release.xcconfig"; path = "Target Support Files/Pods-LeisureMap/Pods-LeisureMap.release.xcconfig"; sourceTree = "<group>"; };
 		8B227ED42111B8BF001C59A9 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		8B4D66CF2112AEA900A8B911 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		8B4D66D42112AEDC00A8B911 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
@@ -73,7 +80,7 @@
 		8B78945721119B6200AE7D6F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8B78946721119F3B00AE7D6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8B78946821119F3B00AE7D6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		94581ABFA0EBD66636B24EB4 /* Pods-LeisureMapTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeisureMapTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LeisureMapTests/Pods-LeisureMapTests.debug.xcconfig"; sourceTree = "<group>"; };
+		98BC3AC92BFF59567196CE38 /* Pods_LeisureMap.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LeisureMap.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD044834210AAA80008831E0 /* ServiceCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceCategory.swift; sourceTree = "<group>"; };
 		AD044836210AAB57008831E0 /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
 		AD044838210ABEE2008831E0 /* ServiceCategoryContext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceCategoryContext.swift; sourceTree = "<group>"; };
@@ -103,6 +110,7 @@
 		AD7594F7210C69D400653986 /* MapFlag.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapFlag.swift; sourceTree = "<group>"; };
 		ADDE451D2109CF2300277E8E /* FileWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileWorker.swift; sourceTree = "<group>"; };
 		BF8B0245B6CC28C8CBA0F0AA /* Pods_LeisureMapUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LeisureMapUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D56004F4E3CFA5B7CC1FE1F6 /* Pods-LeisureMapUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeisureMapUITests.release.xcconfig"; path = "Target Support Files/Pods-LeisureMapUITests/Pods-LeisureMapUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,8 +118,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B26206FAE9EAF09429AC73ED /* Pods_LeisureMap.framework in Frameworks */,
+				B26206FAE9EAF09429AC73ED /* LeisureMap.app in Frameworks */,
 				0A63A0EC22C0FEDE00C177AF /* Pods_LeisureMapTests.framework in Frameworks */,
+				4E8E901383E9E76B29921CD6 /* Pods_LeisureMap.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,9 +146,10 @@
 		5398E96FED8D2F3D0CD544AB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				39065111F89BA4EE5E558F58 /* Pods_LeisureMap.framework */,
+				39065111F89BA4EE5E558F58 /* LeisureMap.app */,
 				1C89FE970331C6294D9D0CB7 /* Pods_LeisureMapTests.framework */,
 				BF8B0245B6CC28C8CBA0F0AA /* Pods_LeisureMapUITests.framework */,
+				98BC3AC92BFF59567196CE38 /* Pods_LeisureMap.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -147,12 +157,12 @@
 		6CBD46744D3364DC689D49BA /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				743B8D7CD1499CBDF6D55F9F /* Pods-LeisureMap.debug.xcconfig */,
-				3D71563C49CCF19875C05214 /* Pods-LeisureMap.release.xcconfig */,
-				94581ABFA0EBD66636B24EB4 /* Pods-LeisureMapTests.debug.xcconfig */,
-				8651CB4BA879CA2F0F1F4E73 /* Pods-LeisureMapTests.release.xcconfig */,
-				00C909580575A68992C74214 /* Pods-LeisureMapUITests.debug.xcconfig */,
-				8025FD01A7566C09ADA1275A /* Pods-LeisureMapUITests.release.xcconfig */,
+				6752C2CB2E014EDE6A5A47FE /* Pods-LeisureMap.debug.xcconfig */,
+				7BA78945785E5D637F32C685 /* Pods-LeisureMap.release.xcconfig */,
+				17D2A3FE16605E752ABC0171 /* Pods-LeisureMapTests.debug.xcconfig */,
+				54D0F2CD16C67FC7F9216CD5 /* Pods-LeisureMapTests.release.xcconfig */,
+				08298CF4FB8996EE4E1D7A43 /* Pods-LeisureMapUITests.debug.xcconfig */,
+				D56004F4E3CFA5B7CC1FE1F6 /* Pods-LeisureMapUITests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -400,10 +410,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0AD6D55D22C10F0E0084C9E2 /* Pods-LeisureMapUITests.debug.xcconfig in Resources */,
+				0AD6D55B22C10F080084C9E2 /* Pods-LeisureMapTests.debug.xcconfig in Resources */,
 				8B227ED52111B8BF001C59A9 /* README.md in Resources */,
 				8B78945D21119BDB00AE7D6F /* LaunchScreen.storyboard in Resources */,
 				AD668A282105D7C90066B0EC /* Assets.xcassets in Resources */,
+				0AD6D55C22C10F0B0084C9E2 /* Pods-LeisureMapTests.release.xcconfig in Resources */,
+				0AD6D55E22C10F100084C9E2 /* Pods-LeisureMapUITests.release.xcconfig in Resources */,
 				8B4D66CE2112AEA900A8B911 /* Localizable.strings in Resources */,
+				0AD6D55922C10F010084C9E2 /* Pods-LeisureMap.debug.xcconfig in Resources */,
+				0AD6D55A22C10F050084C9E2 /* Pods-LeisureMap.release.xcconfig in Resources */,
 				AD7594F6210C528500653986 /* abc.edu.gpx in Resources */,
 				8B78945A21119BCE00AE7D6F /* Main.storyboard in Resources */,
 				8B78945621119B6200AE7D6F /* InfoPlist.strings in Resources */,
@@ -519,7 +535,6 @@
 				AD7594F8210C69D400653986 /* MapFlag.swift in Sources */,
 				AD693E592108592D00AC26D3 /* NoteViewController.swift in Sources */,
 				AD044835210AAA80008831E0 /* ServiceCategory.swift in Sources */,
-				AD693E51210858B800AC26D3 /* MasterViewController.swift in Sources */,
 				AD044837210AAB57008831E0 /* Store.swift in Sources */,
 				AD668A562105DBFE0066B0EC /* LoginViewController.swift in Sources */,
 				AD044840210B09D3008831E0 /* StoreCellView.swift in Sources */,
@@ -528,6 +543,7 @@
 				AD668A502105DB030066B0EC /* SplashViewController.swift in Sources */,
 				AD693E53210858D000AC26D3 /* DetailViewController.swift in Sources */,
 				AD668A232105D7C40066B0EC /* ViewController.swift in Sources */,
+				0AD6D55822C10ED90084C9E2 /* MasterViewController.swift in Sources */,
 				AD12BA00210D43E700AB8D19 /* WebViewController.swift in Sources */,
 				AD668A212105D7C40066B0EC /* AppDelegate.swift in Sources */,
 				AD693E562108590D00AC26D3 /* MapViewController.swift in Sources */,
@@ -727,7 +743,7 @@
 		};
 		AD668A462105D7C90066B0EC /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 743B8D7CD1499CBDF6D55F9F /* Pods-LeisureMap.debug.xcconfig */;
+			baseConfigurationReference = 6752C2CB2E014EDE6A5A47FE /* Pods-LeisureMap.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = LeisureMap/LeisureMap.entitlements;
@@ -738,7 +754,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = tw.edu.cjcu.Xnetwork;
+				PRODUCT_BUNDLE_IDENTIFIER = tw.edu.cjcu.XMap;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -747,7 +763,7 @@
 		};
 		AD668A472105D7C90066B0EC /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3D71563C49CCF19875C05214 /* Pods-LeisureMap.release.xcconfig */;
+			baseConfigurationReference = 7BA78945785E5D637F32C685 /* Pods-LeisureMap.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = LeisureMap/LeisureMap.entitlements;
@@ -758,7 +774,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = tw.edu.cjcu.Xnetwork;
+				PRODUCT_BUNDLE_IDENTIFIER = tw.edu.cjcu.XMap;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -767,7 +783,7 @@
 		};
 		AD668A492105D7C90066B0EC /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 94581ABFA0EBD66636B24EB4 /* Pods-LeisureMapTests.debug.xcconfig */;
+			baseConfigurationReference = 17D2A3FE16605E752ABC0171 /* Pods-LeisureMapTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -788,7 +804,7 @@
 		};
 		AD668A4A2105D7C90066B0EC /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8651CB4BA879CA2F0F1F4E73 /* Pods-LeisureMapTests.release.xcconfig */;
+			baseConfigurationReference = 54D0F2CD16C67FC7F9216CD5 /* Pods-LeisureMapTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -809,7 +825,7 @@
 		};
 		AD668A4C2105D7C90066B0EC /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 00C909580575A68992C74214 /* Pods-LeisureMapUITests.debug.xcconfig */;
+			baseConfigurationReference = 08298CF4FB8996EE4E1D7A43 /* Pods-LeisureMapUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -829,7 +845,7 @@
 		};
 		AD668A4D2105D7C90066B0EC /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8025FD01A7566C09ADA1275A /* Pods-LeisureMapUITests.release.xcconfig */;
+			baseConfigurationReference = D56004F4E3CFA5B7CC1FE1F6 /* Pods-LeisureMapUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
